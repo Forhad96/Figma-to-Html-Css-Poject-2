@@ -1,0 +1,81 @@
+:root {
+  --logo1: 90px;
+  --logo2: 60px;
+  --logo3: 48px;
+
+  --navItems_47: 47px;
+  --navItems_30: 30px;
+
+  --large_1: 70px;
+  --large_2: 50px;
+  --large_3: 35px;
+  --large_4: 32px;
+
+  --small_1: 30px;
+  --small_2: 25px;
+  --small_3: 20px;
+  --small_4: 16px;
+
+  --button_1: 45px;
+  --button_2: 30px;
+  --button_3: 25px;
+  --button_4: 24px;
+
+  --lineHight___1: 90px;
+  --lineHight___2: 65px;
+  --lineHight___3: 50px;
+  --lineHight___4: 47px;
+  --lineHight___5: 43px;
+
+  --lineHight__s_1: 43px;
+  --lineHight__s_2: 35px;
+  --lineHight__s_2: 30px;
+  --lineHight__s_2: 23px;
+
+  --color_primary: #00160a;
+  --color_secondery: #64fcd9;
+  --color_footer: #171717;
+  --color_white: #fff;
+
+  --radius_1: 18px;
+  --radius_2: 9px;
+
+  --ff_1: "Poppins";
+  --ff_2: "Roboto";
+
+  --fw_400: 400;
+  --fw_500: 500;
+  --fw_600: 600;
+  --fw_700: 700;
+
+  --shadow_1: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  --shadow_2: 5.27062px 5.27062px 2.10825px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+/**
+* ! Common Style Rules 
+**/
+.text-center {
+  text-align: center;
+}
+.common_title {
+  font-family: var(--ff_1);
+  font-style: normal;
+  font-weight: var(--fw_500);
+  font-size: var(--large_1);
+  line-height: var(--lineHight___1);
+  color: var(--color_primary);
+}
+
+.common-text {
+  font-family: var(--ff_1);
+  font-style: normal;
+  font-size: var(--small_1);
+  line-height: var(--lineHight___5);
+  color: var(--color_primary);
+  font-weight: 300;
+}
+

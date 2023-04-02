@@ -1,0 +1,178 @@
+@media all and (max-width: 600px) {
+  /**
+* ! Style for Nav Bar
+**/
+  .Home__Active::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 11px;
+    bottom: 230px;
+    background: #64fcd9;
+    border-radius: 10px;
+  }
+
+  .nav-item {
+    text-align: center;
+    z-index: 1;
+  }
+
+  /**
+* ! Style for Section__One
+**/
+  .New__Way {
+    width: 374px;
+    height: 348.67px;
+    flex-direction: column-reverse;
+  }
+  /* .New__Way--image {
+    width: 374px;
+    height: 348.67px;
+  } */
+  .New__Way--contant {
+    width: 374px;
+    height: 94px;
+  }
+  .New__Way--contant h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    color: #00160a;
+    /* text-align: center; */
+  }
+
+  .New__Way--contant p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    color: #00160a;
+    /* text-align: center; */
+  }
+
+  .btn-group {
+    width: 374px;
+    height: 127.41px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+  }
+  .New__Way .Btn1 {
+    background: #00160a;
+    box-shadow: 5.27062px 5.27062px 2.10825px rgba(0, 0, 0, 0.25);
+    border-radius: 9.48711px;
+    width: 354px;
+    height: 55.41px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.0077px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+}
+
+@media all and (min-width: 900px) {
+  /**
+    *!Style for nav bar
+    **/
+  .Nav__Logo {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #00160a;
+  }
+
+  .nav-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #00160a;
+  }
+
+  .Home__Active::before {
+    content: "";
+    width: 54px;
+    height: 6px;
+    bottom: 30%;
+  }
+
+  /**
+    *!Style for section__One
+    **/
+    .New__Way{
+        /* flex-direction: column-reverse; */
+    }
+
+    .New__Way--contant h2{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 65px;
+/* or 130% */
+
+
+color: #00160A;
+    }
+
+    .New__Way--contant p{
+
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 35px;
+/* or 140% */
+
+
+color: #00160A;
+    }
+
+    .btn-group{
+        align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 450px;
+height: 73px;
+    }
+
+    .Btn1{
+        font-size: 30px;
+line-height: 35px;
+    }
+
+}
+
+
+<!-- <section class="Section__One">
+<div class="container">
+  <div class="New__Way">
+    <div class="New__Way--contant">
+      <h2>There’s a New Way to Learn More......</h2>
+      <p>
+        Lorem ipsum dolor sit amet Laudantium at iste velit earum tenetur
+        quaerat sed corporis ex, rem cum nesciunt non ea eligendi porro max
+      </p>
+      <div class="btn-group gap-4">
+        <button class="Btn1">Log In</button>
+        <button class="Btn1">Sing Up</button>
+      </div>
+    </div>
+    <div class="New__Way--image">
+    </div>
+  </div>
+</div>
+</section> -->

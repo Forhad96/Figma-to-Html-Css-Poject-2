@@ -1,0 +1,80 @@
+.sectionTeacher{
+}
+
+
+.teacher__top--title{
+    /* content: "";
+    width: 100%;
+    max-width: 35%;
+    height: 11px;
+    background: #64fcd9;
+    border-radius: 10px;
+    display: block;
+    margin: auto; */
+
+    /* border-bottom: 10px solid #64fcd9; */
+    border-width: 10px solid #ddd;
+}
+.teacher__card{
+    border: 4px solid #00160A;
+box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+padding: 50px;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+.teacher__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    /* place-items: center; */
+}
+
+.teacher__btn{
+    align-self: center;
+padding: 26px;
+background-color: #00160A;
+box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+border-radius: 18px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #FFFFFF;
+}
+
+
+
+/* Tablet screen */
+@media all and (max-width: 1024px) {
+    .teacher__wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .teacher__btn{
+        text-align: center;
+        width: 100%;
+    padding: 12px;
+    font-size: 35px;
+    line-height: 50px;
+    border-radius: 12px;
+    }
+}
+/* Moble screen */
+@media all and (max-width: 768px) {
+    .teacher__wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .teacher__btn{
+        text-align: center;
+        width: 100%;
+    padding: 12px;
+    font-size: 30px;
+    line-height: 43px;
+    border-radius: 9px;
+    }
+}
+
